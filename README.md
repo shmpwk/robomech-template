@@ -18,6 +18,16 @@ $ sudo apt-get update
 $ make
 ```
 
+### Optional. Convert Japanese punctuations
+
+```bash
+$ make pub
+# or
+$ make publish
+# will convert 「、」「。」 to 「，」「．」 in *.tex
+# Original files are backed up as *.tex.orig
+```
+
 ### Optional. cleaning
 
 ```bash
