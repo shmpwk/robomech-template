@@ -523,7 +523,11 @@ FUNCTION {format.vol.num.pages}
         % !!!!MODIFIED!!!!
         % Uncapitalize and connect to number with dash
         % {"Vol." volume tie.or.space.connect ", " * }
-        {"vol." volume tie.or.space.connect "-" * }
+        { number empty$
+          {"vol." volume tie.or.space.connect ", " * }
+          {"vol." volume tie.or.space.connect "-" * }
+          if$
+        }
        if$
      }
 
