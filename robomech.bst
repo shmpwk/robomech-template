@@ -263,7 +263,10 @@ FUNCTION {format.names}
 	    {", " * t * }
 
 
-	    { t "others" =
+	    % !!!!MODIFIED!!!!
+	    % Deal with side effect of above change
+	    % { t "others" =
+	    { t "others, " =
 
  		{ s is.kanji.str$
 
