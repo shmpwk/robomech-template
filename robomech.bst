@@ -519,10 +519,7 @@ FUNCTION {format.vol.num.pages}
 
 
      { volume is.kanji.str$
-        % !!!!MODIFIED!!!!
-        % Connect to number with dash
-        % {volume  ", " * }
-        {volume  "-" * }
+        {volume  ", " * }
         % !!!!MODIFIED!!!!
         % Uncapitalize and connect to number with dash
         % {"Vol." volume tie.or.space.connect ", " * }
