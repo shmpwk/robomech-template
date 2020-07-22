@@ -2,18 +2,9 @@
 
 Latex template for Robomech
 
-### 1. Prerequisities
+### 1. Edit LaTeX files
 
-```bash
-# only for ubuntu 12.04
-$ sudo apt-add-repository ppa:texlive-backports/ppa
-$ sudo apt-get update
-$ sudo apt-get install lsb-release
-```
-
-### 2. Edit LaTeX files
-
-### 3. Make pdf
+### 2. Make pdf
 
 ```bash
 $ make
