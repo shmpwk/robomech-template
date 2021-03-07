@@ -4,7 +4,7 @@
 $pdf_mode = 3;  # use dvipdf
 $latex = 'platex -interaction=nonstopmode -halt-on-error -shell-escape';
 $bibtex = 'pbibtex';
-$dvipdf = 'dvipdfmx %O -o %D %S';
+$dvipdf = 'dvipdfmx -z 0 %O -o %D %S';
 $makeindex = 'mendex %O -o %D %S';
 
 # update
